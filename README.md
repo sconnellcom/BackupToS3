@@ -17,4 +17,6 @@ A Windows command line application to backup your local files to an AWS S3 Bucke
 - Catch exceptions, log issues, example: access denied
 - Test date modified, and S3 time zone
 - gzip before upload, set status in metadata
+- Support for a .S3BackupIgnore file or similar to prevent folders from being backed up
+- Add the ability to throttle bandwidth usage. (Not a problem when backing up servers or at the office but on my home internet connection, no one else can use the internet while large files are being backed up)
 - Multi thread?
