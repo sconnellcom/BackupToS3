@@ -1,6 +1,12 @@
 # BackupToS3
 A Windows command line application to backup your local files to an AWS S3 Bucket written in C# .net
 
+# Sample Usage
+- Update the App.config (or the BackupToS3.exe.config) with your AWS Access Key, Secret Key, and region.
+- Update the BackupDocumentsToS3.bat with the path to the folder on your computer that you would like to backup along with any other backup settings.
+- Run the BackupDocumentsToS3.bat to begin the backup process.
+- Use the Windows Task Scheduler to schedule future backups. (Add the arguments to the "Add arguments(optional)" field in the Task Scheduler. Do not place quotes arround all of the arguments. Do place quotes arroud your folder paths if they have spaces.
+
 # Arguments
 - -bucketname followed by the AWS bucket name to send the files to.
 - -localpath  followed by the local path of the folder to send to S3.
