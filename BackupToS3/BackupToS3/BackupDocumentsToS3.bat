@@ -1,0 +1,1 @@
+"d:\BackupToS3\BackupToS3.exe" -BucketName your-bucket-name-here -LocalPath "D:\Documents" -BucketFolder "Documents" -SubFolders -pushDeletes -logfilepath "d:\BackupToS3\BackupDocumentsToS3.log.txt"
